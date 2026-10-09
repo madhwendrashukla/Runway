@@ -1,0 +1,192 @@
+[
+  {
+    "id": "half_price_regular",
+    "chapter": 1,
+    "weight": 1,
+    "speaker": "Meera, bakery owner",
+    "avatar": "bakery",
+    "text": "I'll be your first paying customer, at half your price. And I'll tell every shop on this street about you.",
+    "left": {
+      "label": "Hold the price",
+      "effects": { "users": -4, "cred": 3 },
+      "reply": "She shrugs and goes back to her paper ledger."
+    },
+    "right": {
+      "label": "Half price",
+      "effects": { "cash": -6, "users": 10 },
+      "reply": "Three shops sign up by Friday. All of them ask for the same deal."
+    },
+    "tags": ["pricing", "funnel"]
+  },
+  {
+    "id": "weekend_crunch",
+    "chapter": 1,
+    "weight": 1,
+    "speaker": "Kabir, lead engineer",
+    "avatar": "engineer",
+    "text": "If we all work through the weekend, payments ship before Monday's demo. Nobody's thrilled about it.",
+    "left": {
+      "label": "Rest up",
+      "effects": { "team": 6, "users": -5 },
+      "reply": "The demo shows a button that says 'coming soon'. Twice."
+    },
+    "right": {
+      "label": "Crunch",
+      "effects": { "team": -11, "users": 8, "cred": 4 },
+      "reply": "It ships. Kabir sleeps under his desk on Monday afternoon."
+    },
+    "tags": ["hiring", "product"]
+  },
+  {
+    "id": "newsletter_number",
+    "chapter": 1,
+    "weight": 1,
+    "speaker": "Startup newsletter",
+    "avatar": "press",
+    "text": "We'd love to feature you this week. We just need one big growth number for the headline.",
+    "left": {
+      "label": "Real number",
+      "effects": { "cred": -3, "team": 4 },
+      "reply": "Your feature runs on page four, under a story about office plants."
+    },
+    "right": {
+      "label": "Round it up",
+      "effects": { "cred": 12, "team": -6 },
+      "reply": "The headline is everywhere. Your team knows exactly how it was rounded."
+    },
+    "tags": ["brand", "ethics"]
+  },
+  {
+    "id": "private_cabin",
+    "chapter": 1,
+    "weight": 1,
+    "speaker": "Co-working manager",
+    "avatar": "landlord",
+    "text": "A private cabin just opened up. It's double the hot desks, but your team stops taking calls from the canteen.",
+    "left": {
+      "label": "Stay put",
+      "effects": { "team": -6, "cash": 4 },
+      "reply": "A sales call is interrupted by someone ordering forty samosas."
+    },
+    "right": {
+      "label": "Take it",
+      "effects": { "cash": -12, "team": 9 },
+      "reply": "There is a door. People keep closing it just to feel something."
+    },
+    "tags": ["cash-flow", "ops"]
+  },
+  {
+    "id": "custom_contract",
+    "chapter": 1,
+    "weight": 1,
+    "speaker": "Logistics firm",
+    "avatar": "enterprise",
+    "text": "We'll sign for a full year, paid upfront. But we need three features nobody else has ever asked for.",
+    "left": {
+      "label": "Walk away",
+      "effects": { "cash": -4, "team": 5 },
+      "reply": "Your roadmap survives. Your bank balance notices."
+    },
+    "right": {
+      "label": "Sign it",
+      "effects": { "cash": 17, "team": -8, "users": -4 },
+      "reply": "The cheque clears. The product now has a settings page only one client understands."
+    },
+    "tags": ["strategy", "product"]
+  },
+  {
+    "id": "summer_interns",
+    "chapter": 1,
+    "weight": 1,
+    "speaker": "College placement cell",
+    "avatar": "college",
+    "text": "Twelve students want to intern with you for the summer, unpaid. Someone will have to manage them.",
+    "left": {
+      "label": "Pass",
+      "effects": { "team": -3, "cred": -3 },
+      "reply": "They join the startup across the hall. It now has a mural."
+    },
+    "right": {
+      "label": "Take them",
+      "effects": { "team": 13, "cash": -4, "cred": 3 },
+      "reply": "Twelve laptops, one router. The office sounds like a hive."
+    },
+    "tags": ["hiring", "ops"]
+  },
+  {
+    "id": "meme_roast",
+    "chapter": 1,
+    "weight": 1,
+    "speaker": "Your social intern",
+    "avatar": "social",
+    "text": "A huge meme page wants to roast our app. Their audience is massive, and they are not known for being kind.",
+    "left": {
+      "label": "No thanks",
+      "effects": { "users": -3, "cred": 3 },
+      "reply": "They roast a food delivery app instead. It trends for three days."
+    },
+    "right": {
+      "label": "Let them",
+      "effects": { "users": 14, "cred": -9 },
+      "reply": "'Like a spreadsheet, but sadder.' Signups triple anyway."
+    },
+    "tags": ["brand", "funnel"]
+  },
+  {
+    "id": "handshake_angel",
+    "chapter": 1,
+    "weight": 1,
+    "speaker": "Angel investor",
+    "avatar": "investor",
+    "text": "I'll wire ₹25 lakh today on a handshake. Terms follow next week, and I don't renegotiate.",
+    "left": {
+      "label": "Keep looking",
+      "effects": { "cash": -4, "cred": 3 },
+      "reply": "He wishes you luck in a tone that suggests you'll need it."
+    },
+    "right": {
+      "label": "Shake hands",
+      "effects": { "cash": 20, "cred": -5 },
+      "reply": "The money lands in an hour. The term sheet is eleven pages long."
+    },
+    "tags": ["fundraising", "cash-flow"]
+  },
+  {
+    "id": "cofounder_salary",
+    "chapter": 1,
+    "weight": 1,
+    "speaker": "Your co-founder",
+    "avatar": "cofounder",
+    "text": "I can't keep living off savings. I need a real salary from next month, or I start looking.",
+    "left": {
+      "label": "Not yet",
+      "effects": { "team": -10, "cash": 3 },
+      "reply": "She stays. Her LinkedIn profile picture changes that evening."
+    },
+    "right": {
+      "label": "Pay her",
+      "effects": { "cash": -10, "team": 7 },
+      "reply": "Her first payslip gets framed. Your runway gets shorter."
+    },
+    "tags": ["hiring", "cash-flow"]
+  },
+  {
+    "id": "two_am_outage",
+    "chapter": 1,
+    "weight": 1,
+    "speaker": "On-call engineer",
+    "avatar": "server",
+    "text": "Servers are down and it's 2am. I can hack a patch now, or we tell users and fix it properly tomorrow.",
+    "left": {
+      "label": "Tell users",
+      "effects": { "users": -7, "cred": 6 },
+      "reply": "The status page gets more readers than your blog ever has."
+    },
+    "right": {
+      "label": "Patch it",
+      "effects": { "team": -8, "users": 3 },
+      "reply": "It holds. Nobody is entirely sure why."
+    },
+    "tags": ["ops", "ethics"]
+  }
+]
